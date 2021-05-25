@@ -1,0 +1,19 @@
+{% extends '@EasyAdmin/page/content.html.twig' %}
+
+{% block title %}A propos{% endblock %}
+
+{% block body %}
+<style>
+    .wrapper { margin: 1em auto; font: 18px/1.5 sans-serif; }
+</style>
+
+<div class="wrapper">
+    <h1>About us 👨🏻‍💻</h1>
+
+    This friendly message is coming from:
+    <ul>
+        <li>Your controller at <code><a href="{{ '/home/alex/dev/ITAkademy/framework_php/myMovieDb/src/Controller/HomeController.php'|file_link(0) }}">src/Controller/HomeController.php</a></code></li>
+        <li>Your template at <code><a href="{{ '/home/alex/dev/ITAkademy/framework_php/myMovieDb/templates/home/index.html.twig'|file_link(0) }}">templates/home/index.html.twig</a></code></li>
+    </ul>
+</div>
+{% endblock %}
